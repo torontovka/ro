@@ -1,0 +1,1 @@
+<% response.redirect "About.asp" %>

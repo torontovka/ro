@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Send Mail</title>
+        	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        	<meta http-equiv="Content-Language" content="ru" />
+	</head>
+	<body>
+		<form method="post" action="sendMail.asp">
+			<p>
+				Subject
+				<br>
+				<input name="Subject" style="width: 700px">
+			</p>
+			<p>
+				HTML Body
+				<br>
+				<textarea name="htmlBody" style="height: 450px; width: 700px"></textarea>
+			</p>
+			<p>
+				HTML Footer
+				<br>
+				<textarea name="htmlFooter" style="height: 120px; width: 700px">" style="font-size: 10px;">Unsubscribe from this newsletter</a></td></tr></table></td></tr></table></body></html></textarea>
+			</p>
+			<p>
+				Action: 
+				<select name="action">
+					<option selected value="list">List</option>
+					<option value="mail">Mail</option>
+					<option value="sent">Sent</option>
+				</select>
+			</p>
+			<p>
+				<input type="submit" value="Submit">
+			</p>
+		</form>
+	</body>
+</html>

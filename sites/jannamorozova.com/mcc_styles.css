@@ -1,0 +1,489 @@
+.required{font: 9pt/11pt arial, helvetica, sans-serif;font-weight: bold;color : #FF0000;}
+.tred{font: 9pt/11pt arial, helvetica, sans-serif;font-weight: bold;color : #FF0000;}
+
+h2 { 
+font: 11pt/11pt arial, helvetica, san-serif; 
+font-weight:700;
+color: #004A8D;
+}
+h3 { 
+font: normal 11pt/12pt arial, helvetica, san-serif; 
+font-weight:700;
+color: #333333;
+}
+h4 { 
+font: bold 10pt/12pt verdana, arial, helvetica, san-serif; 
+color: #00A5E4;
+}
+h5 { 
+font: normal 10pt/12pt arial, helvetica, san-serif; 
+letter-spacing: 1px; 
+color: #333333;
+}
+h6 { 
+font: bold 10pt/12pt arial, helvetica, san-serif; 
+margin-top: 3px; 
+color: #004A8D;
+}
+
+a.linkwhite:link, a.linkwhite:visited { 
+font-weight:normal;
+color:#FFFFFF;
+text-decoration:none;
+}
+a.linkwhite:hover, a.linkwhite:active { 
+font-weight:normal;
+color: #00A5E4;
+}
+
+a.linkgray:link, a.linkgray:visited { 
+font-weight:normal;
+color:#666666;
+text-decoration:none;
+}
+a.linkgray:hover, a.linkgray:active { 
+font-weight:normal;
+color: #00A5E4;
+}
+  
+/************  homepage elements ************/
+
+.home-inner-text-block {
+background: url(../images/shared/div_vertical_303030_x.gif) repeat-y left top;
+}
+.home-text-indented {
+font: 11px/15px arial, helvetica, san-serif; 
+padding:10px;
+}
+
+/************  homepage elements ************/
+
+
+/************  header ************/
+#navHeader {
+font:11px/13px arial, helvetica; 
+color:#FFFFFF; 
+padding:0px 7px 3px 7px
+}
+#navHeader a:link, #navHeader a:visited { 
+ 	font:  normal 11px/16px arial, helvetica, san-serif;
+	text-decoration: none; 
+  color:#FFFFFF;
+	}
+#navHeader a:hover, #navHeader a:active  { 
+  color:#00A5E4;
+	}
+
+/************  header ************/
+
+
+/************  content elements ************/
+
+.mi-i {
+  color:#002A46;
+  font: 14px 'times new roman', serif; 
+  font-weight:bold;
+  font-style : italic;
+  padding-right:3px;
+  }
+  
+
+/* product table short */
+.solutions-short-tbl { 
+background: url(v2/images/en/back_prod_table_short.gif) repeat-x left bottom;
+width:100%;
+}
+.solutions-long-tbl { 
+background: url(v2/images/en/back_prod_table_long.gif) repeat-x left bottom;
+width:100%;
+}
+solutions-text{
+font: 9pt/11pt arial, helvetica, san-serif;
+}
+#solutions-text a:link, #solutions-text a:visited { 
+text-decoration: none; 
+font-weight:bold;
+
+}
+#solutions-text a:hover, #solutions-text a:active  { 
+}
+
+#solutions-text a.blue:link, #solutions-text a.blue:visited { 
+font: 15px/20px arial, helvetica, san-serif; 
+text-decoration: none; 
+font-weight:bold;
+color:#002A46;
+}
+#solutions-text a.blue:hover, #solutions-text a.blue:active  { 
+color:#FFCC00;
+}
+
+#solutions-title { 
+font: bold 15px/18px arial, helvetica, san-serif; 
+padding-top:10px;
+}
+#solutions-title i { 
+font: bold 15px/18px 'times new roman', serif; 
+font-weight:bold;
+padding-right:4px;
+font-style : italic;
+}
+#solutions-title sup{ 
+font:  bold 70% arial, helvetica, san-serif; 
+vertical-align: super;
+}
+#solutions-text ul{ 
+font:11px/16px arial, helevetica, san-serif;
+margin-top:5px;
+margin-left:25px;
+}
+.imortgages-tagline{
+font-style:italic; 
+text-decoration: none; 
+font-weight:bold;
+color:#9FAA00;
+margin-bottom:3px;
+}
+
+#teaser-inner-solutions{
+  font: 12pt/16pt arial, helvetica, san-serif;
+  font-weight:700;
+  margin-top: 3px;
+  color: #002A46;
+  padding-bottom: 10px;
+}
+
+.lhsENwatermark {
+background: url(../images/en/lhs_watermark.gif) no-repeat left bottom;
+background-color:#004A8D;
+}
+
+.lhsFRwatermark {
+background: url(../images/fr/lhs_watermark.gif) no-repeat left bottom;
+background-color:#004A8D;
+}
+
+
+
+#mainContent {
+margin:0px 5px 10px 5px;
+}
+#mainContent a {
+text-decoration:none;
+}
+#mainContent p {
+font: 9pt/13pt arial, helvetica, san-serif;
+margin:10px 0px 10px 0px;
+}
+#mainContent .content-header-text {
+font: 14px/19px arial, helvetica, san-serif; 
+color: #00A5E4;
+}
+
+
+#broker-details {
+margin:0px 5px 0px 5px;
+}
+#broker-details a {
+text-decoration:none;
+}
+#broker-details p {
+margin:7px 0px 10px 0px;
+font: 11px/15px arial, helvetica, san-serif; 
+color: #000000;
+}
+#broker-details .orange {
+font-weight:bold;
+color: #F47920;
+}
+
+
+#rhsMainnav {
+margin:0px 5px 10px 5px;
+}
+
+#rhsToolsnav {
+margin:0px 5px 10px 5px;
+}
+
+.L1{}
+.L1 A:link, .L1 A:visited, .L1 A:active { 
+margin:0px 0px 2px 0px;
+padding:1px 5px 1px 12px;
+background: url(../images/shared/RHS_arrow_red.gif) no-repeat 2px 4px;
+font:  normal 11px/14px arial, helvetica, san-serif;
+text-decoration: none; 
+display:block;
+}
+.L1 A:hover {
+color:#FFFFFF;
+background: url(../images/shared/RHS_arrow_red.gif) no-repeat 2px 4px;
+background-color:#00A5E4;
+}
+
+.L1-On {}
+.L1-On  A:link, .L1-On  A:visited, .L1-On  A:active {
+color:#FFFFFF;
+margin:0px 0px 2px 0px;
+padding:1px 5px 1px 12px;
+background: url(../images/shared/RHS_arrow_red.gif) no-repeat 2px 4px;
+font:  normal 11px/14px arial, helvetica, san-serif;
+text-decoration: none; 
+display:block;
+background-color:#00A5E4;
+}
+.L1-On  A:hover{
+color:#FFFFFF;
+background: url(../images/shared/RHS_arrow_red.gif) no-repeat 2px 4px;
+background-color:#00A5E4;
+}
+
+
+.dotted-vertical {
+background: url(../images/shared/div_vertical_303030_x.gif) repeat-y left top;
+height:100%;
+}
+.dotted-horizontal {
+background: url(../images/shared/div_horizontal_303030_x.gif) repeat-x left top;
+width:100%;
+margin:5px 0px 5px 0px;
+}
+
+.over-under-line {
+border-top:1px #333333 solid;border-bottom:1px #333333 solid;margin-top:10px;margin-bottom:10px; padding:5px
+}
+
+.table-pullquote-blue {
+border:1px #E0E0F9 solid;
+margin:10px;
+}
+.table-pullquote-blue td {
+padding:10px;
+font: 8pt/10pt arial, helvetica, san-serif; 
+background-color:#f9f9ff;
+}
+
+
+/************  content elements ************/
+
+.left-margin-header{ 
+border-bottom:1px #004B8D solid;margin-bottom:10px; padding:2px;
+width:172px;
+font: bold 12px/20px arial, helvetica, san-serif;
+color:#000000;
+text-align:center;
+background-color:#99CC33;
+}
+
+.left-margin-text{ 
+font: 11px/15px arial, helvetica, san-serif;
+color:#333333;
+padding:2px 0px 10px 14px;
+ } 
+ 
+.left-margin-text A:link, .left-margin-text A:visited, .left-margin-text A:active { 
+color:#004B8D;
+text-decoration:none;
+}
+.left-margin-text A:hover {
+color:#99CC33;
+}
+ 
+ 
+.exclusive-desc{ 
+font: 13px/16px arial, helvetica, san-serif;
+color:#333333;
+padding:0px 5px 5px 5px;
+vertical-align:top;
+ } 
+.exclusive-tagline{ 
+font: bold 14px/18px verdana, arial, helvetica, san-serif;
+color:#000;
+padding:0px 0px 0px 3px;
+ } 
+
+ 
+ 
+.copy10-MGray {
+font: 10px/12px arial, helvetica, san-serif;
+color: #666666;
+} 
+.copy10-MBlue {
+font: bold 10px/12px arial, helvetica, san-serif;
+color: #001A76;
+}
+.copy10-White {
+font: 10px/12px arial, helvetica, san-serif;
+color: #FFFFFF;
+}
+.copy11-MGray {
+font: 11px/14px arial, helvetica, san-serif;
+color: #666666;
+} 
+.copy11-MBlue {
+font: bold 11px/14px arial, helvetica, san-serif;
+color: #001A76;
+}
+.copy11-White {
+font: 11px/14px arial, helvetica, san-serif;
+color: #FFFFFF;
+}
+.copy13-MGray {
+font: 12px/14px arial, helvetica, san-serif;
+color: #666666;
+} 
+.copy13-MBlue {
+font: bold 15px/14px arial, helvetica, san-serif;
+color: #001A76;
+}
+.copy13-White {
+font: 12px/14px arial, helvetica, san-serif;
+color: #FFFFFF;
+}
+
+/*   FORM ELEMENTS   */
+
+.field-label {
+color:333333;
+font-size:11px;
+padding-left:5px;
+}
+.row35H{
+height:35px;
+}
+td.divider {
+height: 1px;
+background-color:#cccccc;
+}
+input.entryfield {
+width:190px;
+padding:5px;
+border-top:1px solid #d7d7d7;
+border-left:1px solid #d7d7d7;
+border-bottom:1px solid #f3f3f3;
+border-right:1px solid #f3f3f3;
+background-color:#fbfbfb;
+font: 12px/15px Arial, Helvetica, sans-serif;
+color: #333;
+height:25px;
+}
+.btn-blue {
+margin-top:10px;
+padding:3px;
+border-top:1px solid #dddddd;
+border-left:1px solid #dddddd;
+border-bottom:1px solid #d7d7d7;
+border-right:1px solid #d7d7d7;
+background-color:#004A8D;
+font: 12px/14px Arial, Helvetica, sans-serif;
+color: #FFFFFF;
+height:26px;
+cursor:hand;
+}
+select.dropdown {
+width: 190px;
+padding: 4px;
+border: 1px solid #d7d7d7;
+background-color: #fbfbfb;
+font: 12px/14px Arial, Helvetica, sans-serif;
+color: #333;
+}
+
+.alignTR {
+text-align:right;
+vertical-align:top;
+}
+.alignTC {
+text-align:center;
+vertical-align:top;
+}
+.alignTL {
+text-align:left;
+vertical-align:top;
+}
+.alignMR {
+text-align:right;
+vertical-align:middle;
+}
+.alignMC {
+text-align:center;
+vertical-align:middle;
+}
+.alignML {
+text-align:left;
+vertical-align:middle;
+}
+
+/*   FORM ELEMENTS   */
+
+/* TABLE ELEMENTS */
+.thead {
+padding:8px 5px 8px 5px;
+border-bottom:1px solid #FFFFFF;
+background-color:#F0F0F0;
+font: bold 12px/18px Arial, Helvetica, sans-serif;
+color:#333333;
+}
+
+
+table.tableBlueBorder {
+margin:10px;
+padding:15px;
+border:1px solid #006A9D;
+background-color:#F9F9F9;
+}
+
+table.tableBlue {
+margin:10px 0px 10px 0px;
+padding:5px;
+border:1px solid #006A9D;
+}
+
+.tableBlue tr.header td.directory {
+padding:8px 5px 8px 5px;
+border-bottom:1px solid #FFFFFF;
+background-color:#F6F6F6;
+font: 12px/18px Arial, Helvetica, sans-serif;
+color:#333333;
+}
+
+.tableBlue tr.header td.directory2 {
+padding:8px 5px 8px 5px;
+border-bottom:1px solid #FFFFFF;
+background-color:#F0F0F0;
+font: 12px/18px Arial, Helvetica, sans-serif;
+color:#333333;
+}
+
+.tableBlue td.directory {
+padding:5px;
+border-bottom:1px solid #FFFFFF;
+background-color:#F6F6F6;
+font: 11px/14px Arial, Helvetica, sans-serif;
+color:#444444;
+}
+.tableBlue td.directory2 {
+padding:5px;
+border-bottom:1px solid #FFFFFF;
+background-color:#F0F0F0;
+font: 11px/14px Arial, Helvetica, sans-serif;
+color:#444444;
+}
+
+/* TABLE ELEMENTS */
+
+
+.iBranding { 
+  font-weight:700;
+	}
+.iBranding i { 
+	font: 115% 'times new roman', serif; 
+  font-weight:900;
+  padding-right:3px;
+  font-style : italic;
+	}
+  
+sup {
+  font-size:70%;
+  vertical-align : super;
+}

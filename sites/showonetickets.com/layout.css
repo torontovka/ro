@@ -1,0 +1,657 @@
+div
+{
+	/*border: 1px dotted black;*/
+}
+
+html, body 
+{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body
+{
+	background: url(./images/bg_gradient_top.gif) repeat-x;
+	background-color: #484839;
+	margin: 0px;
+}
+
+form
+{
+	margin: 0px;
+}
+
+a
+{
+	color: #003399;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+a *
+{
+	cursor: pointer;
+}
+
+/**********************************************************************************/
+
+center
+{
+	height: auto;
+	background: url(./images/bg_gradient_bottom.gif) bottom repeat-x;
+}
+	#page
+	{
+		width: 890px;
+		height: auto;
+		padding: 0px 1px 0px 1px;
+		border-left: 1px solid #2b2b25;
+		border-right: 1px solid #2b2b25;
+		background-color: #ffffff;
+	}
+		#inner-page
+		{
+			height: auto;
+			background-color: #ffffff;
+		}
+		#header
+		{
+			height: 53px;
+			width: 100%;
+			background: url(./images/bg_header.gif) repeat-x;
+		}
+			#header-logo
+			{
+				float: left;
+				margin: 10px 0px 0px 20px;
+			}
+		#content
+		{
+			background: url(./images/bg_shaddow_top_vertical.png) repeat-x;
+			margin-bottom: 40px;
+		}
+		#footer
+		{
+			clear: both;
+			width: 100%;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			background-color: #afaf7a;
+			text-align: center;
+		}
+			#copyright
+			{
+				font-family: Verdana;
+				font-size: 11px;
+				color: #000000;
+			}
+
+/**********************************************************************************/
+
+#index-promo
+{
+	float: left;
+	height: 46px;
+	width: 574px;
+	margin-left: 8px;
+	padding: 150px 0px 0px 10px;
+	background: url(./images/promo_17.jpg) no-repeat;
+}
+	#index-promo .title
+	{
+		float: left;
+		text-align: left;
+		padding: 2px 8px 2px 8px;
+
+		font-family: Georgia;
+		font-size: 20px;
+		color: #484839;
+
+		margin-left: 8px;
+		background: #ffffff;
+	}
+#membership-signup
+{
+	float: left;
+	width: 282px;
+	height: 195px;
+	margin-left: 8px;
+	background: url(./images/box_membership_signup.png) no-repeat;
+}
+	#membership-signup img
+	{
+		margin-top: 12px;
+	}
+	#membership-signup input[type="text"]
+	{
+		background: transparent;
+		border: none;
+		height: 25px;
+		width: 175px;
+		padding: 5px 2px 0px 0px;
+		font-family: Arial;
+		font-size: 12px;
+		color: #000000;
+	}
+	.member-signup-name
+	{
+		margin-top: 83px;
+	}
+	.member-signup-mail
+	{
+		margin-top: 9px;
+	}
+	
+/**********************************************************************************/
+
+.sub-header
+{
+	clear: both; float: left;
+	width: 100%;
+	height: 27px;
+	margin-top: 1px;
+
+	background: url(./images/bg_subheader.gif) repeat-x;
+}
+.sub-header-text
+{
+	float: left;
+	margin: 6px 0px 0px 10px;
+
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ffffff;
+}
+	.sh-events
+	{
+		margin-right: 475px;
+	}
+	.sh-event
+	{
+		margin-right: 482px;
+	}
+	.sh-tickets
+	{
+		margin-right: 250px;
+	}
+	.sh-price
+	{
+		margin-right: 25px;
+	}
+	.sh-qty
+	{
+		margin-right: 10px;
+	}
+	.sh-plan
+	{
+		margin-left: 180px;
+	}
+.sub-header-div
+{
+	float: left;
+	width: 1px;
+	height: 27px;
+
+	background: url(./images/div_dotted_subheader.gif) no-repeat;
+}
+
+/**********************************************************************************/
+
+.event-row
+{
+	float: left;
+
+	background-color: #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+	.dark
+	{
+		background-color: #dfdfcb;
+	}
+	.light
+	{
+		background-color: #efefe5;
+	}
+	.white
+	{
+		background-color: #ffffff;
+	}
+	.loose
+	{
+		height: auto;
+	}
+
+	.event-block
+	{
+		float: left;
+		width: 509px;
+		padding: 10px;
+
+		background-image: url(./images/btn_tickets.png);
+		background-position: 440px 80px;
+		background-repeat: no-repeat;
+	}
+		.event-block a
+		{
+			/*float: left;*/
+		}
+		.event-block .thumb
+		{
+			float: left;
+			margin-right: 15px;
+			border: 1px solid #76765a;
+		}
+		.event-block .title
+		{
+			float: left;
+			width: 370px;
+			margin-top: 5px;
+			
+			font-family: Tahoma;
+			font-size: 20px;
+			color: #484839;
+
+			line-height: 100%;
+			text-decoration: none;
+			text-align: left;
+		}
+			.event-block .title:hover
+			{
+				color: #000000;
+			}
+		.event-block .description
+		{
+			float: left;
+			width: 370px;
+			margin-top: 10px;
+
+			font-family: Verdana;
+			font-size: 11px;
+			color: #666666;
+			
+			text-decoration: none;
+			text-transform: uppercase;
+			text-align: left;
+		}
+		.event-block .location
+		{
+			float: left;
+			width: 370px;
+			margin-top: 5px;
+
+			font-family: Arial;
+			font-size: 12px;
+			color: #000000;
+
+			text-decoration: none;
+			text-align: left;
+		}
+		.event-block .btn-tickets
+		{
+			clear: left;
+			float: right;
+			margin-top: 105px;
+		}
+		.event-block .short-text
+		{
+			clear: both;
+			padding-top: 10px;
+			font-family: Arial;
+			font-size: 12px;
+			color: #000000;
+			text-align: left;
+			line-height: 150%;
+		}
+			.event-block .short-text a
+			{
+				text-decoration: underline;
+				color: 0033cc;
+			}
+		
+	.venue-block
+	{
+		float: left;
+		width: 340px;
+		padding: 10px;
+		margin-left: 1px;
+	}
+		.venue-block a
+		{
+		}
+		.venue-block .thumb
+		{
+			float: left;
+			margin-right: 15px;
+			border: 1px solid #76765a;
+		}
+		.venue-block .title
+		{
+			text-align: left;
+			margin-top: 10px;
+
+			font-family: Georgia;
+			font-size: 14px;
+			font-weight: bold;
+			color: #484839;
+			text-decoration: none;
+		}
+		.venue-block .location
+		{
+			/*float: left;*/
+			margin-top: 5px;
+
+			font-family: Verdana;
+			font-size: 11px;
+			color: #666666;
+			text-decoration: none;
+			text-align: left;
+		}
+		.venue-block .links
+		{
+			float: left;
+			margin-top: 5px;
+
+			font-family: Verdana;
+			font-size: 11px;
+			color: #666666;
+			text-decoration: none;
+		}
+			.venue-block .links a
+			{
+				color: #003366;
+				text-decoration: underline;
+			}
+			.venue-block .links a:hover
+			{
+				color: #000000;
+				text-decoration: underline;
+			}
+		.venue-block .short-text
+		{
+			clear: both;
+			padding-top: 10px;
+			font-family: Arial;
+			font-size: 12px;
+			color: #000000;
+			text-align: left;
+			line-height: 150%;
+		}
+			.venue-block .short-text a
+			{
+				text-decoration: underline;
+				color: 0033cc;
+			}
+			
+/**********************************************************************************/
+
+	#tickets
+	{
+		float: left;
+		width: 450px;
+	}
+		.purchase-row
+		{
+			float: left;
+			height: 30px;
+			width: 100%;
+
+			font-family: Arial;
+			font-size: 12px;
+			color: #000000;
+			
+			border-top: 1px solid #ffffff;
+		}
+
+			.purchase-row .ticket-box
+			{
+				float: left;
+				width: 12px;
+				height: 12px;
+				margin: 8px 0px 0px 9px;
+
+				background: #ff0000;
+				border: 1px solid #ffffff;
+			}
+			.purchase-row .ticket-name
+			{
+				float: left;
+				width: 275px;
+				height: 14px;
+				margin: 8px 0px 0px 9px;
+				text-align: left;
+			}
+			.purchase-row .ticket-price
+			{
+				float: left;
+				width: 70px;
+				height: 14px;
+				margin: 8px 0px 0px 9px;
+				text-align: left;
+			}
+			.purchase-row .ticket-qty
+			{
+				float: left;
+			}
+				.purchase-row .ticket-qty input[type="text"]
+				{
+					float: left;
+					height: 24px;
+					width: 54px;
+					margin: 3px 0px 0px 0px;
+					padding: 4px 4px 0px 4px;
+					font-family: Arial;
+					font-size: 12px;
+					text-align: right;
+
+					background-color: #ffffff;
+					border: 1px solid #cccccc;
+				}
+			.purchase-row .delivery-box
+			{
+				float: left;
+				width: 12px;
+				height: 12px;
+				margin: 8px 0px 0px 9px;
+			}
+				.purchase-row .delivery-box input[type="checkbox"]
+				{
+					float: left;
+					margin: 0px;
+					padding: 0px;
+				}
+			.purchase-row .delivery-name
+			{
+				float: left;
+				width: 275px;
+				height: 14px;
+				margin: 8px 0px 0px 9px;
+				text-align: left;
+			}
+			.purchase-row .delivery-price
+			{
+				float: left;
+				width: 120px;
+				height: 14px;
+				margin: 8px 0px 0px 9px;
+				text-align: left;
+			}
+			.purchase-row .total-item
+			{
+				float: left;
+				width: 296px;
+				height: 14px;
+				margin: 8px 0px 0px 9px;
+				text-align: left;
+			}
+			.purchase-row .total-amount
+			{
+				float: left;
+				width: 70px;
+				height: 14px;
+				margin: 8px 0px 0px 9px;
+				text-align: left;
+			}
+			.purchase-row .total-qty
+			{
+				float: left;
+				width: 42px;
+				height: 14px;
+				margin: 8px 0px 0px 9px;
+				text-align: right;
+			}
+			.purchase-row .total-purchase-amount
+			{
+			}
+			
+			.purchase-row .pic-payment-methods
+			{
+				float: right;
+				margin: 13px 10px 0px 0px;
+			}
+			.purchase-row .btn-pay
+			{
+				float: left;
+				margin: 10px;
+			}
+							
+		.purchase-note
+		{
+			float: left;
+			margin-top: 10px;
+			padding-left: 10px;
+
+			text-align: left;
+			line-height: 150%;
+
+			font-family: Tahoma;
+			font-size: 11px;
+			color: #000000;
+		}
+
+	#seating
+	{
+		float: left;
+		width: 439px;
+		height: auto;
+		margin-left: 1px;
+		padding-top: 10px;
+	}
+					
+	.btn-plan-type
+	{
+		float: left;
+		height: 20px;
+		margin-left: 10px;
+
+		cursor: pointer;
+		color: #666666;
+	}
+		.btn-plan-type:hover
+		{
+			color: #000000;
+		}
+		.btn-plan-type .btn-plan-type-left
+		{
+			height: 20px;
+			padding-left: 6px;
+			background: url(./images/btn_sector_relaxed_left.png) left no-repeat;
+		}
+		.btn-plan-type .btn-plan-type-right
+		{
+			height: 20px;
+			padding-right: 6px;
+			background: url(./images/btn_sector_relaxed_right.png) right no-repeat;
+		}
+		.btn-plan-type .btn-plan-type-middle
+		{
+			height: 17px;
+			padding: 3px 10px 0px 10px;
+			background: url(./images/btn_sector_relaxed_middle.png) repeat-x;
+
+			font-family: Tahoma;
+			font-size: 11px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		
+		
+
+		
+/*************************************************************************************/
+
+.popup
+{
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#FFFFFF none repeat scroll 0 0;
+	left:50%;
+	margin-left:-219px;
+	margin-top:-117px;
+	padding:1px;
+	position:fixed;
+	top:40%;
+	z-index:4;
+}
+
+.wrapper
+{
+	border:8px solid #FFFFFF;
+	float:left;
+	position:relative;
+	width:450px;
+}
+
+.overlay
+{
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#000000 none repeat scroll 0 0;
+	height:100%;
+	left:0;
+	opacity:0.5;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:2;
+}
+
+
+#message
+{
+	float: left;
+	width: 100%;
+}
+ 
+#message-text
+{
+	float: left;
+
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+
+	padding: 15px;
+	text-align:left;
+}
+
+.ticket-qty select
+{
+	margin-top: 5px;
+	width: 42px;
+}
+
+#loading
+{
+	float:left;
+	color:#000000;
+	margin-top:16px;
+	visibility:hidden;
+} 

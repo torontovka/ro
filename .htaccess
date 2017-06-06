@@ -1,0 +1,45 @@
+RewriteEngine On
+RewriteCompatibility2 On
+RepeatLimit 200
+RewriteBase 
+# unsupported directive: [ISAPI_Rewrite]
+
+#  Block external access to the httpd.ini and httpd.parse.errors files
+RewriteRule ^/httpd(?:\.ini|\.parse\.errors)$ / [NC,F,O]
+
+#  Defend your computer from some worm attacks
+RewriteRule ^.*(?:global.asa|default\.ida|root\.exe|\.\.).*$ . [NC,F,O]
+
+#  Block external access to the Helper ISAPI Extension
+RewriteRule ^.*\.isrwhlp$ / [NC,F,O]
+
+#  Start the conditions of rewriting the URI's
+#  Added I as a flag to inform IIS that even if I make the mistake of IMAGES/ it should be the same directory since IIS isnt case sensitive like Apache ;-)
+# # Line 13: (Unknown expression)	RewriteCond $1 !^(images|pdf|css|favicon\.ico|robots\.txt|default\.asp) [I]
+
+# 
+#  NON-REWRITABLE URLs
+# 
+#  RewriteRule ^/images/(.*)$		/images/$1 [L]
+#  RewriteRule ^/include/(.*)$		/include/$1 [L]
+#  RewriteRule ^/pdf/(.*)$			/pdf/$1 [L]
+#  RewriteRule ^/css/(.*)$			/css/$1 [L]
+#  RewriteRule ^/portfolio/(.*)$	/portfolio/$1 [L]
+
+# 
+#  REWRITE URLs
+# 
+#  RewriteRule ^/(.*)/(.*)\.html$		/$1/$2.asp [L]
+
+# RewriteRule ^/Create-Website/(.*)\.html$		/$1.asp [L]
+# RewriteRule ^/(.*)/(.*)$						/default.asp [L]
+
+# RewriteRule ^/Articles/Toronto-Real-Estate-54([0-9]+)\.html$					/default.asp?page=Articles&id=$1 [L]
+# RewriteRule ^/(.*)/Buy-Property/Toronto-Real-Estate-Property-([0-9]+)\.html$	/default.asp?lang=$1&page=Buy-Property&property=$2 [L]
+# RewriteRule ^/(.*)/Calculators/(.*)											/default.asp?lang=$1&page=Calculators&amount=$2 [L]
+# RewriteRule ^/(.*)/(.*)/Application.html$										/default.asp?lang=$1&page=$2&application=yes [L]
+
+# RewriteRule ^/sites/(.*)$														/sites/$1 [L]
+
+# RewriteRule ^/(.*)/(.*)/$		/default.asp?lang=$1&page=$2 [L]
+# RewriteRule ^/(.*)/(.*)$		/default.asp?lang=$1&page=$2 [L]

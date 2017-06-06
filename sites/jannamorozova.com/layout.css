@@ -1,0 +1,95 @@
+#main { width:800px; margin:0 auto; text-align:left;}
+
+#header {height:386px; background:#f5f6eb;}
+
+
+#footer { height:71px; background:#618214 url(images/footer_tile.gif) top repeat-x;}
+
+.column1, .column2, .column3, .col1, .col2, .col3 {float:left;}
+.container {width:100%; overflow:hidden;}
+
+/* ============================= index ===========================*/
+
+#index #row1 .line {background:url(images/line_ver.gif) repeat-y 188px 0;}
+#index #row1 .column1 {width:228px; background:url(images/no_line.gif) top repeat-x;}
+#index #row1 .column2 {width:415px;}
+
+
+#index #row2 .line {background:url(images/line_ver.gif) repeat-y 248px 0;}
+#index #row2 .line2 {background:url(images/line_ver.gif) repeat-y 504px 0;}
+#index #row2 .column1 {width:256px;}
+#index #row2 .column2 {width:256px;}
+#index #row2 .column3 {width:234px;}
+
+/* ============================= index-1 ===========================*/
+
+#index_1 #row1 .line {background:url(images/line_ver.gif) repeat-y 308px 0;}
+#index_1 #row1 .column1 {width:345px; background:url(images/no_line.gif) top repeat-x;}
+#index_1 #row1 .column2 {width:388px;}
+
+#index_1 .col1 {width:211px;}
+#index_1 .col2 {width:176px;}
+
+
+#index_1 #row2 .line {background:url(images/line_ver.gif) repeat-y 354px 0;}
+#index_1 #row2 .column1 {width:361px;}
+#index_1 #row2 .column2 {width:336px;}
+
+/* ============================= index-2 ===========================*/
+
+#index_2 #row1 .line {background:url(images/line_ver.gif) repeat-y 329px 0;}
+#index_2 #row1 .column1 {width:364px; background:url(images/no_line.gif) top repeat-x;}
+#index_2 #row1 .column2 {width:369px;}
+
+
+#index_2 #row2 .line {background:url(images/line_ver.gif) repeat-y 373px 0;}
+#index_2 #row2 .column1 {width:381px;}
+#index_2 #row2 .column2 {width:331px;}
+
+/* ============================= index-3 ===========================*/
+
+#index_3 #row1 .line {background:url(images/line_ver.gif) repeat-y 308px 0;}
+#index_3 #row1 .column1 {width:345px; background:url(images/no_line.gif) top repeat-x;}
+#index_3 #row1 .column2 {width:388px;}
+
+#index_3 #row2 .line {background:url(images/line_ver.gif) repeat-y 284px 0;}
+#index_3 #row2 .column1 {width:292px;}
+#index_3 #row2 .column2 {width:438px;}
+
+/* ============================= index-4 ===========================*/
+
+#index_4 #row1 .line {background:url(images/line_ver.gif) repeat-y 329px 0;}
+#index_4 #row1 .column1 {width:364px; background:url(images/no_line.gif) top repeat-x;}
+#index_4 #row1 .column2 {width:369px;}
+
+
+#index_4 #row2 .line {background:url(images/line_ver.gif) repeat-y 373px 0;}
+#index_4 #row2 .column1 {width:381px;}
+#index_4 #row2 .column2 {width:338px;}
+
+/* ============================= index-5 ===========================*/
+
+#index_5 #row1 .line {background:url(images/line_ver.gif) repeat-y 369px 0;}
+#index_5 #row1 .column1 {width:406px; background:url(images/no_line.gif) top repeat-x;}
+#index_5 #row1 .column2 {width:100%;}
+
+
+#index_5 #row2 .line {background:url(images/line_ver.gif) repeat-y 375px 0;}
+#index_5 #row2 .column1 {width:385px;}
+#index_5 #row2 .column2 {width:350px;}
+
+/* ============================= index-6 ===========================*/
+
+#index_6 #row1 .line {background:url(images/line_ver.gif) repeat-y 240px 0;}
+#index_6 #row1 .column1 {width:280px; background:url(images/no_line.gif) top repeat-x;}
+#index_6 #row1 .column2 {width:453px;}
+
+#index_6 #row1 .col1 {width:238px;}
+#index_6 #row1 .col2 {width:215px;}
+
+#index_6 #row2 .col1 {width:183px;}
+#index_6 #row2 .col2 {width:223px;}
+
+#index_6 #row2 .line {background:url(images/line_ver.gif) repeat-y 311px 0;}
+#index_6 #row2 .column1 {width:326px;}
+#index_6 #row2 .column2 {width:406px;}

@@ -1,0 +1,281 @@
+body
+{
+	margin: 0px;
+	background: url( /images/background.gif ) top repeat-x;
+	text-align: center;
+}
+
+h1
+{
+	font-family: Times;
+	font-size: 28px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	color: #999999;
+	margin: 0px 0px 30px 0px;
+	clear: both;
+}
+
+h2
+{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	color: #000000;
+	margin: 0px 0px 10px 0px;
+	clear: both;
+	
+	width: 100%;
+	border-bottom: 1px dotted #999999;
+}
+
+h3
+{
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	margin: 0px 0px 10px 0px;
+	clear: both;
+}
+
+h4
+{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	color: #999999;
+	margin: 0px 0px 10px 0px;
+}
+
+ul
+{
+	margin: 0px;
+	padding: 0px;
+}
+li
+{
+	list-style-type: none;
+	background: url( /images/li.gif ) left center no-repeat;
+	padding: 1px 0px 0px 24px;
+	margin-bottom: 4px;
+}
+
+table.page
+{
+	width: 950px;
+	height: 100%;
+	/* border: 1px solid #000000; */
+}
+
+.clsText
+{
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+	line-height: 22px;
+}
+
+span.clsLinkActive
+{
+	color: #000000;
+}
+
+a.clsLinkWebC
+{
+	color: #339933;
+}
+a.clsLinkWebC:hover
+{
+	color: #000000;
+}
+a.clsLinkWebP
+{
+	color: #cc0000;
+}
+a.clsLinkWebP:hover
+{
+	color: #000000;
+}
+a.clsLinkOutW
+{
+	color: #336666;
+}
+a.clsLinkOutW:hover
+{
+	color: #000000;
+}
+
+.clsSmallText
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #666666;
+}
+.clsSmallText a
+{
+	color: #666666;
+	text-decoration: none;
+}
+.clsSmallText a:hover
+{
+	color: #000000;
+	text-decoration: underline;
+}
+.clsSmallText span
+{
+	color: #cccccc;
+}
+
+.clsMenuItem
+{
+	text-align: center;
+	padding: 0px 20px 6px 20px;
+}
+.clsMenuItem a
+{
+	font-family: Arial;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: underline;
+}
+.clsMenuItem a:hover
+{
+	color: #cc0000;
+}
+
+.clsPageContent
+{
+	padding: 10px 0px 20px 0px;
+}
+
+
+
+/*********************/
+div.clsClientProject
+{
+	margin: 0px 20px 20px 0px;
+	float: left;
+	line-height: 100%;
+}
+div.clsClientProject img
+{
+	vertical-align: bottom;
+	clear: both;
+
+	-moz-opacity:.50;
+	filter: alpha(opacity=50);
+	opacity: .50;
+}
+div.clsClientProject img
+{
+	-moz-opacity:.50;
+	filter: alpha(opacity=50);
+	opacity: .50;
+}
+div.clsClientProject span.name
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000000;
+}
+div.clsClientProject span.project
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: #666666;
+}
+div.clsClientProject div
+{
+	width: 180px;
+	height: 70px;
+	clear: both;
+	margin-bottom: 8px;
+}
+
+
+/*********************/
+div.clsWebPortfolioItem
+{
+	margin: 0px 6px 6px 0px;
+	float: left;
+	line-height: 14px;
+	border: 1px solid #dddddd;
+	background-color: #fafafa;
+    width: 200px;
+}
+.clsWebPortfolioItem span.name
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #000000;
+}
+.clsWebPortfolioItem span.property
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: #333333;
+}
+.clsWebPortfolioItem span.value
+{
+	font-family: Arial;
+	font-size: 11px;
+	color: #666666;
+}
+.clsWebPortfolioItem a img
+{
+	width: 200px; height: 175px;
+	clear: both;
+	margin-bottom: 8px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+
+
+
+
+
+
+.clsAddressTitle
+{
+	font-family: Arial;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: underline;
+	margin-bottom: 6px;
+}
+
+.clsAddress
+{
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	line-height: 120%;
+}
+
+#button-getquote
+{
+	cursor: pointer;
+}
+
+input, textarea
+{
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+input[type="text"], textarea
+{
+	background-color: #f6f6f6;
+	border: 1px solid #cccccc;
+}
+input[type="text"]
+{
+	height: 26px;
+}

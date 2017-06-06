@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+<title>21 Cotswold Crescent, Toronto</title> 
+
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/reset-fonts/reset-fonts.css" /> 
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/base/base-min.css" /> 
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.6.0/build/container/assets/skins/sam/container.css" /> 
+<link rel="stylesheet" type="text/css" href="./carousel.css" /> 
+<link rel="stylesheet" type="text/css" href="./gallery.css" /> 
+<link rel="stylesheet" type="text/css" href="./style.css" /> 
+<link rel="stylesheet" type="text/css" href="./style_black.css" /> 
+
+</head> 
+ 
+<body class="yui-skin-sam mls" text="#ffffff;"> 
+ 
+<table id="main-tbl"><tr><td> 
+<table width="720" border="0" align="center">
+<tr>
+	<td valign="top"><a href="http://www.gromova.ca"><img src="./pic.jpg" border="0" alt="Irina Gromova" title="Irina Gromova"></a></td>
+	<td width="100%" style="font-family: Times; color: #ffffff; font-size: 18px; padding-left: 20px;">
+			<a href="http://www.gromova.ca" style="font-size: 24px; color: #ffffff;">Irina Gromova</a>
+			<p/>
+			REMAX West Realty Inc.
+			<br/>
+			Office: 905.731.3948 / Direct: 905.707.9524
+			<br/>
+			<a href="http://www.gromova.ca" style="font-family: Arial; font-size: 12px; color: #ffffff;">Web: www.gromova.ca</a>
+	</td>
+</tr>
+</table>
+
+    <div id="photo-container"> 
+        <div id="photo-container-inner"> 
+            <div id="photo"> 
+                <div class="slide"></div> 
+                <div id="throbber" class="info-image"><img src="./large-throbber.gif" alt="Loading..." /></div> 
+                <div id="info-play" class="info-image"><div></div></div> 
+                <div id="info-pause" class="info-image"><div></div></div> 
+            </div> 
+            <div id="controls-background-under"></div> 
+            <div id="controls"> 
+                <div id="controls-background"></div> 
+                <div id="slideshow-controls"> 
+                    <div id="ssc-play" ><a title="Start slide-show" href="javascript:g_slideShowHandler.play();"></a></div> 
+                    <div id="ssc-pause"><a title="Pause slide-show" href="javascript:g_slideShowHandler.pause();"></a></div> 
+                    <div id="ssc-first"><a title="First photo"      href="javascript:g_slideShowHandler.goFirst();"></a></div> 
+                    <div id="ssc-prev" ><a title="Previous photo"   href="javascript:g_slideShowHandler.goPrev();"></a></div> 
+                    <div id="ssc-next" ><a title="Next photo"       href="javascript:g_slideShowHandler.goNext();"></a></div> 
+                    <div id="ssc-last" ><a title="Last photo"       href="javascript:g_slideShowHandler.goLast();"></a></div> 
+                </div> 
+                <div id="carousel" style="visibility:hidden" class="carousel-component"> 
+                    <div class="carousel-clip-region"> 
+                        <ul class="carousel-list"></ul> 
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </div> 
+    <div id="info-container"> 
+        <div id="info"> 
+			<div id="address">
+			43 Sagecrest Crescent, Vaughan
+			<br/>
+			</div>
+        </div> 
+    </div> 
+</td></tr></table> 
+ 
+ 
+<script type="text/javascript">
+<!--
+
+var g_thumbImageList = [
+{ src: './0043/th/1.jpg',		width: 180, height: 120 },
+{ src: './0043/th/2.jpg',		width: 180, height: 120 },
+{ src: './0043/th/3.jpg',		width: 180, height: 120 },
+{ src: './0043/th/4.jpg',		width: 180, height: 120 },
+{ src: './0043/th/5.jpg',		width: 180, height: 120 },
+{ src: './0043/th/6.jpg',		width: 180, height: 120 },
+{ src: './0043/th/7.jpg',		width: 180, height: 120 },
+{ src: './0043/th/8-1.jpg',		width:  90, height: 120 },
+{ src: './0043/th/8-2.jpg',		width:  90, height: 120 },
+{ src: './0043/th/9.jpg',		width:  90, height: 120 },
+{ src: './0043/th/10.jpg', 		width:  90, height: 120 },
+{ src: './0043/th/11.jpg', 		width: 180, height: 120 },
+{ src: './0043/th/12-1.jpg', 	width: 180, height: 120 },
+{ src: './0043/th/12-2.jpg', 	width: 180, height: 120 },
+{ src: './0043/th/13.jpg', 		width: 180, height: 120 },
+{ src: './0043/th/14.jpg', 		width: 180, height: 120 },
+{ src: './0043/th/15.jpg', 		width: 180, height: 120 },
+{ src: './0043/th/16.jpg', 		width: 180, height: 120 },
+{ src: './0043/th/17.jpg', 		width: 180, height: 120 },
+{ src: './0043/th/18.jpg', 		width:  90, height: 120 }];
+ 
+var g_fullImageList = [
+{ src: './0043/1.jpg',		width: 720, height: 480 },
+{ src: './0043/2.jpg',		width: 720, height: 480 },
+{ src: './0043/3.jpg',		width: 720, height: 480 },
+{ src: './0043/4.jpg',		width: 720, height: 480 },
+{ src: './0043/5.jpg',		width: 720, height: 480 },
+{ src: './0043/6.jpg',		width: 720, height: 480 },
+{ src: './0043/7.jpg',		width: 720, height: 480 },
+{ src: './0043/8-1.jpg',	width: 360, height: 480 },
+{ src: './0043/8-2.jpg',	width: 360, height: 480 },
+{ src: './0043/9.jpg',		width: 360, height: 480 },
+{ src: './0043/10.jpg', 	width: 360, height: 480 },
+{ src: './0043/11.jpg', 	width: 720, height: 480 },
+{ src: './0043/12-1.jpg', 	width: 720, height: 480 },
+{ src: './0043/12-2.jpg', 	width: 720, height: 480 },
+{ src: './0043/13.jpg', 	width: 720, height: 480 },
+{ src: './0043/14.jpg', 	width: 720, height: 480 },
+{ src: './0043/15.jpg', 	width: 720, height: 480 },
+{ src: './0043/16.jpg', 	width: 720, height: 480 },
+{ src: './0043/17.jpg', 	width: 720, height: 480 },
+{ src: './0043/18.jpg', 	width: 360, height: 480 }];
+-->
+</script> 
+
+<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.6.0/build/yahoo-dom-event/yahoo-dom-event.js&amp;2.6.0/build/animation/animation-min.js&amp;2.6.0/build/container/container-min.js"></script> 
+<script type="text/javascript" src="./carousel-min.js"></script> 
+<script type="text/javascript" src="./slideshow.js"></script> 
+<script type="text/javascript" src="./gallery.js"></script> 
+
+</body> 
+</html> 

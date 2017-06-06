@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<title>Send Mail</title>
+<link rel="STYLESHEET" type="text/css" href="/css/classes.css">
+</head>
+
+<body>
+<table width=600 border=0>
+<tr>
+ <td width="100%" colspan="2">
+	<form method="post" action="sendMail_dating.asp">
+	<p>&nbsp;</p>
+	<P>Subject<br>
+	 <input name="Subject" style="HEIGHT: 25px; WIDTH: 420px"></P>
+	<P>HTML Body<br><TEXTAREA cols=40 name=htmlBody rows=20 style="HEIGHT: 548px; WIDTH: 586px"></TEXTAREA><br>
+  </td>
+</tr>
+<tr>
+  <td width="50%">  
+	Action &nbsp;
+	<SELECT name=action> 
+	<OPTION selected value=list> List</OPTION>
+	<OPTION value=mail> Mail</OPTION>
+		<OPTION value=sent> Sent</OPTION>
+	</SELECT><br>
+      <CENTER></CENTER>
+  </td> 
+  <td width="50%">
+	<br><input type="submit" value="Submit">
+      <P></P></FORM>
+  </td>
+</tr>
+</table>  
+  
+</body>
+
+</html>

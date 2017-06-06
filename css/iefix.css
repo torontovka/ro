@@ -1,0 +1,12 @@
+html
+{
+	filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+* html .png, * html #promo img
+{
+	behavior: url( /images/png.htc );
+	border: 0px;
+}
+
+/* * html #header{background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./img/light.png',sizingMethod='crop');} */

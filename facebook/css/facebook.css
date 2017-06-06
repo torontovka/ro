@@ -1,0 +1,238 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.fb-page {
+    width: 520px;
+    height: 1147px;
+    margin: 0px auto;
+}
+    body.i18n-en .fb-page {
+        background: url( ../images/facebook/bg_en.jpg ) no-repeat;
+    }
+    body.i18n-fr .fb-page {
+        background: url( ../images/facebook/bg_fr.jpg ) no-repeat;
+    }
+
+.fb-page-font {
+    font-family: Arial, alwyn-new-1;
+    font-size:13px;
+    line-height:16px;
+    color:#d0d0d0;
+}
+
+
+/*****************************************************/
+
+#fb-page-header {
+    display:block;
+    height:420px;
+    width:520px;
+}
+
+#fb-page-header p {
+    float:left;
+    height:85px;
+    margin-left:50px;
+    margin-top:260px;
+    width:260px;
+
+    font-size:15px;
+    line-height:18px;
+}
+
+#fb-page-header .button {
+    float:left;
+    width:235px;
+    height:40px;
+    margin-left:50px;
+}
+    body.i18n-en #fb-page-header .button {
+        background: url( ../images/facebook/btn_meet_en.png ) no-repeat;
+    }
+    body.i18n-fr #fb-page-header .button {
+        background: url( ../images/facebook/btn_meet_fr.png ) no-repeat;
+    }
+
+/*****************************************************/
+
+#fb-page-blocks {
+    display:block;
+    float:left;
+    margin: 20px 0px 0px 0px; 
+    width: 100%;
+    heigth: 185px;
+}
+
+#fb-page-blocks .block {
+    height:185px;
+    width:255px;
+}
+    body.i18n-en #fb-page-blocks .block#photos {
+        background: url( ../images/facebook/block_photo_en.jpg ) no-repeat;
+    }
+    body.i18n-fr #fb-page-blocks .block#photos {
+        background: url( ../images/facebook/block_photo_fr.jpg ) no-repeat;
+    }
+    body.i18n-en #fb-page-blocks .block#events {
+        background: url( ../images/facebook/block_events_en.jpg ) no-repeat;
+    }
+    body.i18n-fr #fb-page-blocks .block#events {
+        background: url( ../images/facebook/block_events_fr.jpg ) no-repeat;
+    }
+    #fb-page-blocks .block.left {
+        float:left;
+    }
+    #fb-page-blocks .block.right {
+        float:right;
+    }
+
+#fb-page-blocks .block p.text {
+    float:left;
+    height:90px;
+    margin:50px 0 0 17px;
+    width:220px;
+}
+
+#fb-page-blocks .block a.button {
+    float:left;
+    height:28px;
+    margin:0px 0 0 17px;
+}
+    body.i18n-en #fb-page-blocks .block#photos a.button {
+        background: url( ../images/facebook/btn_photos_en.png ) no-repeat;
+        width:85px;
+    }
+    body.i18n-fr #fb-page-blocks .block#photos a.button {
+        background: url( ../images/facebook/btn_photos_fr.png ) no-repeat;
+        width:85px;
+    }
+    body.i18n-en #fb-page-blocks .block#events a.button {
+        background: url( ../images/facebook/btn_events_en.png ) no-repeat;
+        width:85px;
+    }
+    body.i18n-fr #fb-page-blocks .block#events a.button {
+        background: url( ../images/facebook/btn_events_fr.png ) no-repeat;
+        width:85px;
+    }
+
+
+/*****************************************************/
+
+#fb-page-tickers {
+    display:block;
+    float:left;
+    margin-top: 10px;
+}
+
+#fb-page-tickers .ticker {
+    float:left;
+    height:125px;
+    margin:0 3px;
+    width:165px;
+}
+    #fb-page-tickers .ticker.left {
+        margin-left: 6px;
+    }
+    #fb-page-tickers .ticker.right {
+        margin-right: 6px;
+    }
+    body.i18n-en #fb-page-tickers .ticker#racing {
+        background: url( ../images/facebook/ticker_racing_en.png ) no-repeat;
+    }
+    body.i18n-fr #fb-page-tickers .ticker#racing {
+        background: url( ../images/facebook/ticker_racing_fr.png ) no-repeat;
+    }
+    body.i18n-en #fb-page-tickers .ticker#music {
+        background: url( ../images/facebook/ticker_music_en.png ) no-repeat;
+    }
+    body.i18n-fr #fb-page-tickers .ticker#music {
+        background: url( ../images/facebook/ticker_music_fr.png ) no-repeat;
+    }
+    body.i18n-en #fb-page-tickers .ticker#gear {
+        background: url( ../images/facebook/ticker_gear_en.png ) no-repeat;
+    }
+    body.i18n-fr #fb-page-tickers .ticker#gear {
+        background: url( ../images/facebook/ticker_gear_fr.png ) no-repeat;
+    }
+
+
+/*****************************************************/
+
+#fb-page-twitter-feed {
+    display:block;
+    float:left;
+    height:110px;
+    margin-top:20px;
+    width:100%;
+    background: url("../images/facebook/twitter_icon.png") no-repeat scroll 12px 2px transparent;
+}
+
+#fb-page-twitter-feed label.twitter-feed-title {
+    width: 400px;
+    height: 20px;
+    float:left;
+    margin: 0px 0px 5px 110px;
+    
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#fb-page-twitter-feed p.twitter-feed-text {
+    float:left;
+    clear: both;
+    width: 400px;
+    height: 55px;
+    margin: 0px 0px 0px 110px;
+    padding: 0px;
+    
+    font-size: 11px;
+}
+
+#fb-page-twitter-feed p.twitter-feed-text span {
+    color: #e7b401;
+}
+
+#fb-page-twitter-feed a.button {
+    height:22px;
+    float:left;
+    margin-left:110px;
+    margin-top: px;
+}
+    body.i18n-en #fb-page-twitter-feed a.button {
+        background: url( ../images/facebook/btn_follow_en.png ) no-repeat;
+        width:65px;
+    }
+    body.i18n-fr #fb-page-twitter-feed a.button {
+        background: url( ../images/facebook/btn_follow_fr.png ) no-repeat;
+        width:65px;
+    }
+
+/*****************************************************/
+
+#fb-page-footer {
+    display:block;
+    float:left;
+    height:230px;
+    margin-top:20px;
+    width:100%;
+}
+
+#fb-page-footer a.button {
+    float:left;
+    height:28px;
+    margin:175px 13px 0px 13px;
+}
+    body.i18n-en #fb-page-footer a.button {
+        background: url( ../images/facebook/btn_explore_en.png ) no-repeat;
+        width: 95px;
+    }
+    body.i18n-fr #fb-page-footer a.button {
+        background: url( ../images/facebook/btn_explore_fr.png ) no-repeat;
+        width: 95px;
+    }
+    #fb-page-footer a.button#explore_tc {
+        margin-left:31px;
+    }
