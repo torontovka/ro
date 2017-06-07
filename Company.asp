@@ -25,7 +25,6 @@ clients.add "cryptologic",	"Cryptologic Inc.		|Web/Casino Interface			|Design, d
 <!--#include virtual="/include/header.inc.asp"-->
 
 <!--#include virtual="/include/page-top.inc.asp"-->
- 
 	<h1>Company</h1>
 	
 	<p>
